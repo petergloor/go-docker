@@ -11,7 +11,7 @@ func main() {
 	// Create a new gorilla router.
 	r :=mux.NewRouter()
 	r.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "Welcome to to the go-docker API.")
+		fmt.Fprintf(w, "Welcome to to the go-docker API.\nAvailable on Github oder auch nicht.")
 	})
 
 
